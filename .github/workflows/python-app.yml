@@ -24,4 +24,4 @@ jobs:
       with:
         python-version: "3.10"
     - name: print
-      run: print -c "los chismesitos de caro"
+      run: python -c "print(los chismesitos de caro)"
