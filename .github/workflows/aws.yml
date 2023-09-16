@@ -1,0 +1,16 @@
+name: imprimir contenedores
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu/lastest
+    steps:
+    - name: test aws
+    env: 
+      AWS_ACCESS_KEY_ID:
+      AWS_SECRET_ACCESS_KEY:
+      AWS_:b
+    run: aws s3 ls
+    
