@@ -5,7 +5,7 @@ name: f1 app
 
 on:
   schedule:
-  - cron: "* /2 * * * *"
+  - cron: "*/2 * * * *"
 
 permissions:
   contents: read
