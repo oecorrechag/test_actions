@@ -1,5 +1,4 @@
-name: imprimir contenedores intento 3
-
+name: imprimir
 on:
   push:
     branches:
